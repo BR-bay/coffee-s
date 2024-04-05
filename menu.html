@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee byunda</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="menu"></body>
+    <header>
+        <div class="container">
+            <h1>Welcome to Coffee byunda</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">home</a></li>
+                    <li><a href="menu.html">menu</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                    <li><a href="about.html">About</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2></h2>
+            <a href="#" class="btn">Pilih Menu</a>
+        </div>
+    </section>
+
+    <section class="menu">
+        <div class="container">
+            <h2>coffee</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="coffee1.jpg" alt="Coffee 1">
+                    <h3>americano</h3>
+                    <p>kombinasi satu shot espresso dan air panas.</p>
+                    <span class="price">Rp 20.000</span>
+                    <button class="buy-btn" onclick="addToCart('americano', 20.000)">beli</button>
+
+                </div>
+                   <div class="menu-item">
+                       <img src="coffee2.jpg" alt="Coffee 1">
+                       <h3>macchiato</h3>
+                       <p>espresso di tambah sedikit susu dengan perbandingan 4:1.</p>
+                       <span class="price">Rp 17.000</span>
+                    <button class="buy-btn" onclick="addToCart('macchiato', 17.000)">beli</button>
+
+                
+                </div>
+                   <div class="menu-item">
+                        <img src="coffee3.jpg" alt="Coffee 1">
+                        <h3>affogato</h3>
+                        <p>satu sendok es krim dengan siraman single atau double shot espresso.</p>
+                        <span class="price">Rp 19.000</span>
+                    <button class="buy-btn" onclick="addToCart('affogato', 19.000)">beli</button>
+
+                 </div>
+                    <div class="menu-item">
+                         <img src="coffee4.jpg" alt="Coffee 1">
+                         <h3>mocha</h3>
+                         <p>kombinasi espresso dengan susu dan cokelat.</p>
+                         <span class="price">Rp 25.000</span>
+                    <button class="buy-btn" onclick="addToCart('mocha', 25.000)">beli</button>
+
+                 </div>
+                    <div class="menu-item">
+                         <img src="coffee5.jpg" alt="Coffee 1">
+                         <h3>cafe latte</h3>
+                         <p>satu shot espresso dengan susu steam dan busa yang lebih tebal.</p>
+                         <span class="price">Rp 18.000</span>
+                    <button class="buy-btn" onclick="addToCart('cafe latte', 18.000)">beli</button>
+
+
+            </div>
+        </div>
+    </section>
+    <section class="menu">
+        <div class="container">
+            <h2>snake</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="coffee-special.jpg" alt="Special Coffee">
+                    <h3>pottato</h3>
+                    <p>kentang yang di goreng.</p>
+                    <span class="price">Rp 10.000</span>
+                    <button class="buy-btn" onclick="addToCart('cafe latte', 10.000)">beli</button>
+                </div>
+                <div class="menu-item">
+                    <img src="coffee-special1.jpg" alt="Special Coffee">
+                    <h3>bakso goreng</h3>
+                    <p>bakso ayam yang di goreng dengan bumbu.</p>
+                    <span class="price">Rp 18.000</span>
+                    <button class="buy-btn" onclick="addToCart('cafe latte', 18.000)">beli</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Coffee Shop</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
